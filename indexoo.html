@@ -49,19 +49,69 @@
 
       .card {
       display: block;
-      text-de초중반</span>
+      text-decoration: none;
+      background: white;
+      border-radius: 16px;
+      padding: 24px 18px;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+      border: 1px solid rgba(0, 0, 0, 0.03);
+      transition: transform 0.15s ease, box-shadow 0.15s ease, translate 0.15s;
+      color: #222;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
+    }
+
+    .card span.gen {
+      display: block;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .card span.period {
+      font-size: 13px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>K-POP의 역사</h1>
+    <p>K-POP의 세대별 특징과 대표 아티스트를 정리한 웹페이지</p>
+  </header>
+
+  <main class="content">
+    <h2 class="section-title">K-POP 세대별 정리</h2>
+
+    <div class="card-grid">
+      <a class="card" href="gen1oo.html">
+        <span class="gen">1세대 K-POP</span>
+        <span class="period">1990년대 후반 ~ 2000년대 초반</span>
+      </a>
+
+      <a class="card" href="gen2oo.html">
+        <span class="gen">2세대 K-POP</span>
+        <span class="period">2000년대 중반 ~ 2010년대 초반</span>
+      </a>
+
+      <a class="card" href="gen3oo.html">
+        <span class="gen">3세대 K-POP</span>
+        <span class="period">2010년대 중반</span>
       </a>
 
       <a class="card" href="gen4oo.html">
         <span class="gen">3.5~4세대 K-POP</span>
-        <span class="period">2016년 이후</span>
+        <span class="period">2018년 이후</span>
       </a>
 
       <a class="card" href="gen5oo.html">
         <span class="gen">5세대 K-POP</span>
         <span class="period">최근 / 차세대 아이돌</span>
       </a>
-      </div>
+    </div>
   </main>
 </body>
 </html>
